@@ -1,7 +1,7 @@
 # Fashion MNIST Image Classification
 This repo shows a set of Jupyter Notebooks demonstrating a variety of Convolutional Neural Networks models I built to classify images for the [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset. It is a dataset of Zalando's article images — consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. The dataset serves as a direct drop-in replacement for the original [MNIST](http://yann.lecun.com/exdb/mnist/) dataset for benchmarking machine learning algorithms. It shares the same image size and structure of training and testing splits.
 
-Here's an accompanied blog post: [How to Classify Fashion Images using ConvNets](https://medium.com/nanonets/how-to-classify-fashion-images-easily-using-convnets-81e1e0019ffe)
+Here's an accompanied blog post: [The 4 Convolutional Neural Network Models That Can Classify Your Fashion Images](https://towardsdatascience.com/the-4-convolutional-neural-network-models-that-can-classify-your-fashion-images-9fe7f3e5399d)
 
 Here are the different notebooks:
 * [1-Convolution Layer CNN](http://nbviewer.jupyter.org/github/khanhnamle1994/fashion-mnist/blob/master/CNN-1Conv.ipynb): Trained a simple CNN classifier with 1 convolution layer, 1 max-pooling layer, 2 dense layers, and 1 dropout layer. Achieved 92.29% accuracy.
